@@ -1,6 +1,7 @@
 # TODO:
 # - fix makefile to build it TheRightWay(TM)
 Summary:	Maintain BibTeX files
+Summary(pl):	Zarz±dzanie plikami BibTeXa
 Name:		bibcursed
 Version:	2.0.0
 Release:	1
@@ -20,6 +21,16 @@ It performs everyday functions such as adding, removing and viewing
 reference entries. Intelligent prompting for fields is used when
 adding entries so that authors do not have to rely on memory for
 knowing which fields can and cannot be used for different entry types.
+
+%description -l pl
+Bibcursed to prosty oparty o curses edytor do plików bibliografii
+BibTeXa, przydatny szczególnie dla tych, którzy musz± utrzymywaæ du¿±
+liczbê odniesieñ w wiêkszej czê¶ci dokumentacji, jak na przyk³ad
+pracach dyplomowych. Program wykonuje codzienne funkcje, takie jak
+dodawanie, usuwanie i przegl±danie wpisów z odniesieniami. Przy
+dodawaniu wpisów u¿ywane s± inteligentne pytania dla pól, przez co
+autorzy nie musz± polegaæ na swojej pamiêci, ¿eby wiedzieæ, które pola
+mog±, a które nie mog± byæ u¿yte dla ró¿nych rodzajów wpisów.
 
 %prep
 %setup  -q -n %{name}
