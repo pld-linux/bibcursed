@@ -33,7 +33,7 @@ autorzy nie musz± polegaæ na swojej pamiêci, ¿eby wiedzieæ, które pola
 mog±, a które nie mog± byæ u¿yte dla ró¿nych rodzajów wpisów.
 
 %prep
-%setup  -q -n %{name}
+%setup -q -n %{name}
 
 %build
 %{__cc} %{rpmcflags} -I%{_includedir}/ncurses -lncurses -o %{name} bibcursed.c
