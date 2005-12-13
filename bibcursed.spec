@@ -36,7 +36,7 @@ mog±, a które nie mog± byæ u¿yte dla ró¿nych rodzajów wpisów.
 %setup -q -n %{name}
 
 %build
-%{__cc} %{rpmcflags} -I%{_includedir}/ncurses -lncurses -o %{name} bibcursed.c
+%{__cc} %{rpmcflags} -I/usr/include/ncurses -lncurses -o %{name} bibcursed.c
 
 %install
 rm -rf $RPM_BUILD_ROOT
