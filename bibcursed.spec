@@ -1,7 +1,7 @@
 # TODO:
 # - fix makefile to build it TheRightWay(TM)
 Summary:	Maintain BibTeX files
-Summary(pl.UTF-8):   Zarządzanie plikami BibTeXa
+Summary(pl.UTF-8):	Zarządzanie plikami BibTeXa
 Name:		bibcursed
 Version:	2.0.0
 Release:	1
