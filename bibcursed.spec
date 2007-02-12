@@ -1,7 +1,7 @@
 # TODO:
 # - fix makefile to build it TheRightWay(TM)
 Summary:	Maintain BibTeX files
-Summary(pl):	Zarz±dzanie plikami BibTeXa
+Summary(pl.UTF-8):   ZarzÄ…dzanie plikami BibTeXa
 Name:		bibcursed
 Version:	2.0.0
 Release:	1
@@ -22,15 +22,15 @@ reference entries. Intelligent prompting for fields is used when
 adding entries so that authors do not have to rely on memory for
 knowing which fields can and cannot be used for different entry types.
 
-%description -l pl
-Bibcursed to prosty oparty o curses edytor do plików bibliografii
-BibTeXa, przydatny szczególnie dla tych, którzy musz± utrzymywaæ du¿±
-liczbê odniesieñ w wiêkszej czê¶ci dokumentacji, jak na przyk³ad
+%description -l pl.UTF-8
+Bibcursed to prosty oparty o curses edytor do plikÃ³w bibliografii
+BibTeXa, przydatny szczegÃ³lnie dla tych, ktÃ³rzy muszÄ… utrzymywaÄ‡ duÅ¼Ä…
+liczbÄ™ odniesieÅ„ w wiÄ™kszej czÄ™Å›ci dokumentacji, jak na przykÅ‚ad
 pracach dyplomowych. Program wykonuje codzienne funkcje, takie jak
-dodawanie, usuwanie i przegl±danie wpisów z odniesieniami. Przy
-dodawaniu wpisów u¿ywane s± inteligentne pytania dla pól, przez co
-autorzy nie musz± polegaæ na swojej pamiêci, ¿eby wiedzieæ, które pola
-mog±, a które nie mog± byæ u¿yte dla ró¿nych rodzajów wpisów.
+dodawanie, usuwanie i przeglÄ…danie wpisÃ³w z odniesieniami. Przy
+dodawaniu wpisÃ³w uÅ¼ywane sÄ… inteligentne pytania dla pÃ³l, przez co
+autorzy nie muszÄ… polegaÄ‡ na swojej pamiÄ™ci, Å¼eby wiedzieÄ‡, ktÃ³re pola
+mogÄ…, a ktÃ³re nie mogÄ… byÄ‡ uÅ¼yte dla rÃ³Å¼nych rodzajÃ³w wpisÃ³w.
 
 %prep
 %setup -q -n %{name}
