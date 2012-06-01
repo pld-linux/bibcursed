@@ -3,12 +3,12 @@
 Summary:	Maintain BibTeX files
 Summary(pl.UTF-8):	Zarządzanie plikami BibTeXa
 Name:		bibcursed
-Version:	2.0.0
+Version:	2.0.1
 Release:	1
 License:	GPL v2
 Group:		Daemons
-Source0:	http://dl.sourceforge.net/bibcursed/%{name}_%{version}.tar.gz
-# Source0-md5:	2579457724f17c23cdac408e4271f2d9
+Source0:	http://dl.sourceforge.net/bibcursed/%{name}_%{version}.tgz
+# Source0-md5:	7645b7b7e3ff558d673a1ed6e2ebe99e
 URL:		http://sourceforge.net/projects/bibcursed/
 BuildRequires:	ncurses-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
